@@ -8,7 +8,7 @@ export default function Navbar() {
       <Image
         src={Logo}
         alt='IT Helpdesk logo'
-        width={70}
+        width={80}
         quality={100}
         placeholder='blur'
       />
