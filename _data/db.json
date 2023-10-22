@@ -22,39 +22,11 @@
       "user_email": "peach@netninja.dev"
     },
     {
-      "title": "Urgent ticket",
-      "body": "This is a system error ticket",
-      "priority": "low",
-      "user_email": "rafi@rafi.com",
-      "id": "910W_52"
-    },
-    {
-      "title": "URGENT SYSTEM DOWN",
-      "body": "BLAH BLAHH BLAHJHHH",
+      "id": "4",
+      "title": "Bla bla bla",
+      "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf. Nunc ocarina sagittis quis Majoras Mask. Nulla in metus arcu. Suspendisse potenti. In vel mauris varius, consectetur Zora ipsum eget, Master Sword porttitor urna. Fusce elementum urna elit, eget eleifend velit consectetur eget. Integer vel lobortis ipsum, vitae auctor Ocarina of Time. Donec sed urna dapibus, interdum magna a, eleifend magna. Curabitur tincidunt enim a neque volutpat. Phasellus auctor magna vel nunc pretium, ut volutpat justo tristique. Pellentesque cursus convallis mauris, in tempus enim tincidunt vitae.",
       "priority": "high",
-      "user_email": "rafi@rafi.com",
-      "id": "wu66SRs"
-    },
-    {
-      "title": "clean up the mess",
-      "body": "bklaaaaaaaaaaaaaaaaaaaa",
-      "priority": "high",
-      "user_email": "mario@netninja.dev",
-      "id": "FWgjxw1"
-    },
-    {
-      "title": "This is high priority",
-      "body": "Something went wrong.....!!",
-      "priority": "high",
-      "user_email": "mario@netninja.dev",
-      "id": "zw9sNkf"
-    },
-    {
-      "title": "Clean up the mess on Marios desk",
-      "body": "abcccccccccccccc",
-      "priority": "medium",
-      "user_email": "mario@netninja.dev",
-      "id": "hxpZjq_"
+      "user_email": "peach@netninja.dev"
     }
   ]
 }
