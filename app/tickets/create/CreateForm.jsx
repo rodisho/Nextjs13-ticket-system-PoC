@@ -15,17 +15,17 @@ export default function CreateForm() {
     e.preventDefault();
     setIsLoading(true);
 
-    const ticket = {
+    const newTicket = {
       title,
       body,
       priority,
-      user_email: 'rafi@rafi.com',
+      user_email: 'mario@netninja.dev',
     };
 
     const res = await fetch('http://localhost:4000/tickets', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(ticket),
+      body: JSON.stringify(newTicket),
     });
 
     if (res.status === 201) {
@@ -62,7 +62,7 @@ export default function CreateForm() {
         </select>
       </label>
       <button className='btn-primary' disabled={isLoading}>
-        {isLoading && <span>Adding....</span>}
+        {isLoading && <span>Adding...</span>}
         {!isLoading && <span>Add Ticket</span>}
       </button>
     </form>
