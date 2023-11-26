@@ -13,10 +13,10 @@ export default function AuthForm({handleSubmit}) {
             <label>
                 <span>Email:</span>
                 <input
-                type="email"
-                onChange={(e) => setEmail(e.target.value)}
-                value={email}
-                required
+                    type="email"
+                    onChange={(e) => setEmail(e.target.value)}
+                    value={email}
+                    required
                 />
             </label>
             <label>

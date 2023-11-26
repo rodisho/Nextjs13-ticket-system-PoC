@@ -9,7 +9,7 @@ export default function Signup() {
 
     const [error, setError] = useState('')
 
-    const handleSubmit = async(e, email, password) => {
+    const handleSubmit = async (e, email, password) => {
         e.preventDefault()
 
         const supabase = createClientComponentClient()
@@ -22,21 +22,21 @@ export default function Signup() {
             }
         })
 
-        if(error) {
+        if (error) {
             setError(error.message)
         }
-        if(!error){
+        if (!error) {
             router.push('/verify')
         }
     }
 
     return (
-       <main>
-           <h2 className="text-center">Sign up</h2>
-           <AuthForm handleSubmit={handleSubmit}/>
-           {error && (
-               <div className="error">{error}</div>
-           )}
-       </main>
+        <main>
+            <h2 className="text-center">Sign up</h2>
+            <AuthForm handleSubmit={handleSubmit}/>
+            {error && (
+                <div className="error">{error}</div>
+            )}
+        </main>
     );
 }
