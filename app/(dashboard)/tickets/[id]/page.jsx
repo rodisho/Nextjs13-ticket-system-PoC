@@ -1,5 +1,5 @@
 import { notFound } from 'next/navigation';
-import createServer from "next";
+
 import {createServerComponentClient} from "@supabase/auth-helpers-nextjs";
 import cookies from "next/headers";
 export const dynamicParams = true;
